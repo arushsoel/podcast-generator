@@ -11,8 +11,8 @@ inputs:
   email: 
     description: email
     required: True
-    default: ${{ GITHUB_ACTOR }}@localhost
+    default: ${{ github.actor }}@localhost
   name: 
     description: name
     required: True
-    default: ${{ GITHUB_ACTOR }}  
+    default: ${{ github.actor }}  
